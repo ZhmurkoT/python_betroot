@@ -1,9 +1,9 @@
 number = int(input('input a namber: '))
-counter1 = 0
-counter2 = 0
+counter = 0
+sum = 0
 
-while counter1 < number:
-    counter1 += 1
-    counter2 += counter1
+while counter < number:
+    counter += 1
+    sum += counter
 
-print(counter2/counter1)
+print(sum/counter)
